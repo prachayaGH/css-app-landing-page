@@ -6,6 +6,16 @@
 body{
     background-color: rgba(224, 224, 237, 1);
     padding: 24px;
+    display: flex;
+    
+    flex-direction: column;
+
+    align-items: center;
+    /*justify-content: center;
+    font-family: 'Inter';
+    background-color: #F6F6FB;*/
+
+    
 }
 header{
     width: 1377;
@@ -144,14 +154,14 @@ header{
     border-style: none;
 }
 
-body {
+/*body {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Inter';
     background-color: #F6F6FB;
-}
+}*/
 
 .feature-container {
     display: flex;
@@ -210,12 +220,14 @@ p {
 }
 
 
-body {
+/*body {
+    
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     font-family: inter, sans-serif;
-   }
+   }*/
 
 
 form {
